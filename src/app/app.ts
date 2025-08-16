@@ -4,10 +4,10 @@ import { Layout } from './core/layout/layout';
 
 @Component({
   selector: 'app-root',
-  imports: [Layout],
+  imports: [Layout, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'teste';
+
 }
