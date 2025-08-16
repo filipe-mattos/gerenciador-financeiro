@@ -6,12 +6,13 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 @use 'styles/theme-colors' as theme-colors;
-
+@use 'styles/theme-colors_black' as theme-colors-black;
+@use 'styles/overrides/toolbar.scss';
 html {
   @include mat.theme((
     color: (
-      primary: theme-colors.$primary-palette,
-      tertiary: theme-colors.$tertiary-palette,
+      primary: theme-colors-black.$primary-palette,
+      tertiary: theme-colors-black.$tertiary-palette,
     ),
     typography: Roboto,
     density: 0,
