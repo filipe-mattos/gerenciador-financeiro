@@ -27,5 +27,8 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "typeRoots": [
+    "node_modules/@angular/material"
+]
 }
