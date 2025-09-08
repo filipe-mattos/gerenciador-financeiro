@@ -8,6 +8,7 @@
 @use 'styles/theme-colors' as theme-colors;
 @use 'styles/theme-colors_black' as theme-colors-black;
 @use 'styles/overrides/toolbar.scss';
+@use 'styles/custom-colors';
 html {
   @include mat.theme((
     color: (
