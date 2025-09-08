@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Aluguel",
+      "value": 500,
+      "type": "outcome"
+    },
+    {
+      "id": 2,
+      "title": "Energia",
+      "value": 150,
+      "type": "outcome"
+    },
+    {
+      "id": 3,
+      "title": "Salario",
+      "value": 2800,
+      "type": "income"
+    },
+    {
+      "id": 4,
+      "title": "Internet",
+      "value": 130,
+      "type": "outcome"
+    }
+  ]
+}
