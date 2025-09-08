@@ -1,7 +1,11 @@
-.income{
+.income {
   color: var(--custom-color-success);
 }
 
-.outcome{
+.outcome {
   color: var(--mat-sys-error);
+}
+
+.zero {
+  color: var(--mat-sys-secondary);
 }
